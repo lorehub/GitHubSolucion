@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubEjemplo", "GitHubEjemplo\GitHubEjemplo.csproj", "{0765F8CB-518F-4964-8A0E-FAD7D3A3C5DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubXamarin.Android", "GitHubXamarin\GitHubXamarin.Android\GitHubXamarin.Android.csproj", "{568F7412-2FFA-40A7-B45C-6593ABE88645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubXamarin", "GitHubXamarin\GitHubXamarin\GitHubXamarin.csproj", "{7A97034E-5113-4771-B421-3FF8656BC119}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{0765F8CB-518F-4964-8A0E-FAD7D3A3C5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0765F8CB-518F-4964-8A0E-FAD7D3A3C5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0765F8CB-518F-4964-8A0E-FAD7D3A3C5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{568F7412-2FFA-40A7-B45C-6593ABE88645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{568F7412-2FFA-40A7-B45C-6593ABE88645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{568F7412-2FFA-40A7-B45C-6593ABE88645}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{568F7412-2FFA-40A7-B45C-6593ABE88645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{568F7412-2FFA-40A7-B45C-6593ABE88645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{568F7412-2FFA-40A7-B45C-6593ABE88645}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7A97034E-5113-4771-B421-3FF8656BC119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A97034E-5113-4771-B421-3FF8656BC119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A97034E-5113-4771-B421-3FF8656BC119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A97034E-5113-4771-B421-3FF8656BC119}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
