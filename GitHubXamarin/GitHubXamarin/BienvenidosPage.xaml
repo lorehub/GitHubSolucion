@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GitHubXamarin.BienvenidosPage" BackgroundColor="#DA81F5"
+             Title="Bienvenidos">
+    <ContentPage.Content>
+        <StackLayout >
+            <Label Text="Bienvenidos  "
+                   TextColor="#00FF80"
+                   FontAttributes="Bold"
+                   FontSize="20"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"/>
+
+            <Button Text="Consumir Api"
+                    TextColor="#00FF80"
+                    HorizontalOptions="Center" 
+                    VerticalOptions="EndAndExpand"
+                    Clicked="ListaPublicaciones"/>
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

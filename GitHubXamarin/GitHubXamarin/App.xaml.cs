@@ -11,7 +11,7 @@ namespace GitHubXamarin
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new BienvenidosPage());
         }
 
         protected override void OnStart()
